@@ -24,4 +24,66 @@
 
 /* Positioning Classes */
 
+#wrapper {
+  display: inline-flex;
+}
+
+
+.shadow1 {
+  float: left;
+  margin-right: 20px;
+}
+
+.shadow2 {
+  float: right;
+}
+
+#deals {
+display: inline-flexbox;
+columns: 3;
+column-gap: auto;
+align-items: top;
+margin-top: 20px;
+column-span: all;
+
+}
+
+.pic1 {
+  width: 31%;
+  float: left;
+  margin-top: 10px;
+  position: relative;
+  bottom: 18px;
+}
+
+.pic2 {
+  width: 31%;
+margin: auto;
+  clear: right;
+  margin-top: 40px;
+  position: relative;
+  bottom: 8px;
+}
+
+.pic3 {
+  position: relative;
+  bottom: 374px;
+  width: 31%;
+  float: right;
+  clear: left;
+}
+
+#details {
+  margin-left: 40px;
+  column-count: 3;
+  column-gap: 30px;
+  column-rule: 2px;
+  column-rule-color: dimgrey;
+  column-rule-style: dotted;
+  column-width: 33%;
+}
+
+.border-right {
+padding-left: 10px;
+}
 
